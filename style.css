@@ -74,20 +74,20 @@ h3{
 } 
 
 .nav-button-color{
-    color: #780000ff;
+    color: #780000ff !important;
 }
 
 .link{
     font-weight: bold;
-    color: #780000ff;
+    color: #780000ff !important;
 } 
 
 .link:hover{
-    color:rgb(72, 0, 0);
+    color:rgb(72, 0, 0)!important;
 } 
 
 .link:active{
-    color:rgb(72, 0, 0);
+    color:rgb(72, 0, 0)!important;
 } 
 
 
@@ -236,7 +236,7 @@ width: 200px;
         "item3"
         "item4"
         "item5"
-        "item6" !important;
+        "item6";
     }
 }
 
