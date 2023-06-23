@@ -34,6 +34,7 @@ h3 {
 .button-link {
   font-weight: bold;
   color: #780000;
+  transition: color 2s;
 }
 .button-link:hover {
   color: rgb(72, 0, 0);
@@ -100,6 +101,19 @@ footer .redes {
 }
 footer .icono {
   width: 3em;
+}
+footer .icono:hover {
+  animation-name: efecto_redes;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+@keyframes efecto_redes {
+  from {
+    transform: scale 1, 1;
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
 }
 footer .logo {
   width: 200px;
