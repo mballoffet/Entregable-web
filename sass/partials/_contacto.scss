@@ -1,0 +1,49 @@
+/* PAGE: CONTACTO */
+.banner-contacto{
+    @extend .banner-servicios;
+    background-image: url(../images/header-contacto.jpeg);
+
+    h1{
+        color: white;
+        text-shadow: 3px 0px 3px rgba(0,0,0,0.6);
+    }
+}
+
+.formulario{
+    @include flexbox (flex, column);
+    align-items: center;
+}
+
+.form-section{
+    @include flexbox (flex, column);
+    column-gap: 2em;
+    align-content: center;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 3rem 0 3rem 0;
+}
+
+form{
+    @include flexbox (flex, column);
+    width: 100%;
+    align-content: center;
+    row-gap: 1em;
+    margin-top: 1em;
+    
+    div{
+        @include flexbox (flex, column);
+        row-gap: .2em;
+        align-content: center;
+    }
+}
+
+hr{
+    width: 100%;
+}
+
+.form-wpp{
+    @include flexbox (flex, column);
+    align-content: center;
+    column-gap: 2em;
+    text-align: center;
+}

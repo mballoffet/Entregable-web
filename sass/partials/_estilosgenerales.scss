@@ -1,0 +1,135 @@
+//VARIABLES//
+$color-primary: #780000ff;
+$color-active: rgb(72, 0, 0);
+$color-secondary: #030303;
+
+// MIXINS//
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin flexbox ($display, $flex-direction,){
+    display: $display;
+    flex-direction: $flex-direction;
+}
+
+
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+h1{
+    color: $color-primary;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p,h2,h3,h4{
+    color: $color-secondary;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title-bold{
+    font-weight: bold;
+}
+
+/*BUTTONS*/
+.button-link{
+    font-weight: bold;
+    color: $color-primary;
+
+    &:hover{
+        color: $color-active;
+    }
+}
+
+.button{
+    background-color:$color-primary;
+    color: white;
+    font-weight: bold;
+
+    &:hover{
+        background-color: $color-active;
+        color: white;
+    }
+
+    &:active{
+        color:$color-active;
+    }
+}
+
+.link{
+    font-weight: bold;
+    color: $color-primary !important;
+
+    &:hover{
+        color:$color-active!important;
+    }
+
+    &:active{
+        color:$color-active!important;     
+    }
+} 
+
+.button-outline{
+    border: 2px solid $color-primary;
+    color: $color-primary;
+    font-weight: bold;
+}
+
+/*NAVBAR*/
+nav{
+    background-color: #fdf9ef;
+
+    img{
+        width:200px;
+    }
+
+    button{
+        border-color: $color-primary !important;
+        color: $color-primary !important;
+    }
+
+    span{
+        color: $color-primary !important;
+    }
+}
+
+/*FOOTER*/
+footer{
+    color: white;
+    background-color: $color-primary;
+    p{
+        color: white;
+        width: auto; 
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: row;
+        row-gap: 1em;   
+    }
+
+    .icono{
+        width: 3em;
+    }
+
+    .logo{
+        width: 200px;
+        } 
+}

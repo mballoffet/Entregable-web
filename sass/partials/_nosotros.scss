@@ -1,0 +1,19 @@
+/* PAGE: SOBRE NOSOTROS */
+.banner-nosotros{
+    @extend .banner-servicios;
+    background-image: url(../images/header-nostros.jpg);
+
+    h1{
+        color: white;
+        text-shadow: 3px 0px 3px rgba(0,0,0,0.6);
+    }
+}
+
+.title-equipo{
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+
+.div-equipo img{
+    width: 100%;
+}

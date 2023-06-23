@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
     <!--CSS-->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../sass/estilos.css">
 
     <title>Contacto</title>
 </head>
@@ -19,11 +19,11 @@
 <body>
     <!--menu de navegacion-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light p-3 nav-styles ">
+        <nav class="navbar navbar-expand-lg navbar-light p-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo de Gabinete de grafología" class="logo-nav"></a>
-                <button class="navbar-toggler nav-button-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon nav-button-color"></span>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo de Gabinete de grafología"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse p-2 justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -51,25 +51,25 @@
         <section class="form-section">
             <h2>Dejanos un mensaje</h2>
 
-            <form action="" class="form-styles">
-                <div class="form-item">
-                    <label for="">Nombre y Apellido</label>
-                    <input type="text" name="" id="">
+            <form action="">
+                <div>
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="" id="Nombre">
                 </div>
                 
-                <div class="form-item">
-                    <label for="">Mail</label>
-                    <input type="email" name="" id="">
+                <div>
+                    <label for="Mail">Mail</label>
+                    <input type="email" name="" id="Mail">
                 </div>
 
-                <div class="form-item">
-                    <label for="">Telefono</label>
-                    <input type="tel">
+                <div>
+                    <label for="Telefono">Telefono</label>
+                    <input type="tel" id="Telefono">
                 </div>
 
-                <div class="form-item">
-                    <label for="">Servicio</label>
-                    <select name="Servicio" id="">
+                <div>
+                    <label for="Servicio">Servicio</label>
+                    <select name="Servicio" id="Servicio">
                         <option value="opcion1">Estudios grafológicos particulares</option>
                         <option value="opcion2">Estudios grafológicos de Compatibilidad</option>
                         <option value="opcion3">Evaluaciones grafológicas para RRHH</option>
@@ -79,9 +79,9 @@
                     </select>
                 </div>
 
-                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <textarea name="" id="mensaje" cols="30" rows="5"></textarea>
 
-                <input type="button" value="Enviar mensaje" class="button btn">
+                <input type="button" value="Enviar mensaje" class="button btn" id="enviar">
                 
                 <hr>
 
@@ -101,7 +101,7 @@
 
 
     <!--FOOTER-->
-    <footer class="container-fluid footer-styles p-3">
+    <footer class="container-fluid p-3">
         <div class="row container-fluid m-0 p-0 align-items-center">
 
             <div class="col-md-4 col-12 text-center my-2">
