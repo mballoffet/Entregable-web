@@ -76,6 +76,7 @@ nav {
 }
 nav img {
   width: 200px;
+  height: auto;
 }
 nav button {
   border-color: #780000 !important;
@@ -101,6 +102,7 @@ footer .redes {
 }
 footer .icono {
   width: 3em;
+  height: auto;
 }
 footer .icono:hover {
   animation-name: efecto_redes;
@@ -117,11 +119,13 @@ footer .icono:hover {
 }
 footer .logo {
   width: 200px;
+  height: auto;
 }
 
 /* PAGE: INDEX */
 .banner-img {
   width: 100%;
+  height: auto;
 }
 
 .quote {
@@ -133,6 +137,7 @@ footer .logo {
 }
 
 .servicios-item img {
+  width: auto;
   height: 5rem;
   padding: 8px;
 }
@@ -247,10 +252,12 @@ footer .logo {
 .img-articulo {
   background-size: cover;
   width: 100%;
+  height: auto;
 }
 
 .img-articulo-xl {
   width: 75%;
+  height: auto;
 }
 
 /* PAGE: CONTACTO */

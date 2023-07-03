@@ -1,6 +1,6 @@
 /* PAGE: INDEX */
 .banner-img{
-    width: 100%;
+    @include sizes (100%,auto);
 }
 
 .quote{
@@ -13,7 +13,7 @@
 }
 
 .servicios-item img{
-    height: 5rem;
+    @include sizes(auto,5rem);
     padding: 8px;
 }
 

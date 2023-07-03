@@ -11,9 +11,9 @@
 
 .img-articulo{
     background-size: cover;
-    width: 100%;
+    @include sizes (100%,auto);
 }
 
 .img-articulo-xl{
-    width: 75%;
+    @include sizes (75%,auto);
 }
